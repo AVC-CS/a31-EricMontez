@@ -8,16 +8,24 @@ int main()
   const double ClassCCost = 9.00;
 
   // TODO: Declare integer variables for tickets sold for each class
-
+  int ticketsA, ticketsB, ticketsC;
   // TODO: Declare double variables for total sales per class and grand total
-
+  double totalA, totalB, totalC, total;
   // TODO: Prompt user and read number of Class A tickets sold
-
+  cout << "How many Class A tickets were sold?\n";
+  cin >> ticketsA;
   // TODO: Prompt user and read number of Class B tickets sold
-
+  cout << "How many Class B tickets were sold?\n";
+  cin >> ticketsB;
   // TODO: Prompt user and read number of Class C tickets sold
-
+  cout << "How many Class C tickets were sold?\n";
+  cin >> ticketsC;
   // TODO: Calculate sales for each class
+  totalA = ticketsA * ClassACost;
+  totalB = ticketsB * ClassBCost;
+  totalC = ticketsC * ClassCCost;
+  // TODO: Calculate grand total
+  total = totalA + totalB + totalC;
 
   // TODO: Calculate total sales
 
